@@ -1,0 +1,6 @@
+{
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Wal",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false
+}

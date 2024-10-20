@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../code/hangman"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp"
+		}
+	}
+}

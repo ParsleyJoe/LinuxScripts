@@ -1,0 +1,6 @@
+2024-10-19 15:30:24.128 [info] Extension host with pid 3077 started
+2024-10-19 15:30:24.128 [info] Skipping acquiring lock for /home/ronit/.config/VSCodium/User/workspaceStorage/dd4a4e297cf6e7d5ebc129599cd73bea.
+2024-10-19 15:30:24.408 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-19 15:30:24.418 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-10-19 15:30:24.506 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-19 15:30:24.507 [info] Extension host with pid 3077 exiting with code 0

@@ -1,0 +1,5 @@
+2024-07-25 08:41:53.498 [info] update#setState disabled
+2024-07-25 08:41:53.502 [info] update#ctor - updates are disabled as there is no update URL
+2024-07-25 08:56:59.917 [error] webContents#will-navigate: Prevented webcontent navigation
+2024-07-25 08:57:02.025 [error] webContents#will-navigate: Prevented webcontent navigation
+2024-07-25 08:57:42.010 [info] Extension host with pid 813 exited with code: 0, signal: unknown.

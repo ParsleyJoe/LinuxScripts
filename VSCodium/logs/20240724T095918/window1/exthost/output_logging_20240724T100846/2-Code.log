@@ -1,0 +1,217 @@
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+
+[Done] exited with code=0 in 0.416 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+main.cpp: In function ‘std::string guessWord()’:
+main.cpp:19:25: error: no matching function for call to ‘std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>::mersenne_twister_engine(std::random_device&)’
+   19 |     std::mt19937 rng(dev);
+      |                         ^
+In file included from /usr/include/c++/14.1.1/random:48,
+                 from main.cpp:4:
+/usr/include/c++/14.1.1/bits/random.h:658:9: note: candidate: ‘template<class _Sseq, class> std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>::mersenne_twister_engine(_Sseq&) [with <template-parameter-2-2> = _Sseq; _UIntType = long unsigned int; long unsigned int __w = 32; long unsigned int __n = 624; long unsigned int __m = 397; long unsigned int __r = 31; _UIntType __a = 2567483615; long unsigned int __u = 11; _UIntType __d = 4294967295; long unsigned int __s = 7; _UIntType __b = 2636928640; long unsigned int __t = 15; _UIntType __c = 4022730752; long unsigned int __l = 18; _UIntType __f = 1812433253]’
+  658 |         mersenne_twister_engine(_Sseq& __q)
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/14.1.1/bits/random.h:658:9: note:   template argument deduction/substitution failed:
+/usr/include/c++/14.1.1/bits/random.h: In substitution of ‘template<class _UIntType, long unsigned int __w, long unsigned int __n, long unsigned int __m, long unsigned int __r, _UIntType __a, long unsigned int __u, _UIntType __d, long unsigned int __s, _UIntType __b, long unsigned int __t, _UIntType __c, long unsigned int __l, _UIntType __f> template<class _Sseq> using std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>::_If_seed_seq = std::__detail::_If_seed_seq_for<_Sseq, std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>, _UIntType> [with _Sseq = std::random_device; _UIntType = long unsigned int; long unsigned int __w = 32; long unsigned int __n = 624; long unsigned int __m = 397; long unsigned int __r = 31; _UIntType __a = 2567483615; long unsigned int __u = 11; _UIntType __d = 4294967295; long unsigned int __s = 7; _UIntType __b = 2636928640; long unsigned int __t = 15; _UIntType __c = 4022730752; long unsigned int __l = 18; _UIntType __f = 1812433253]’:
+/usr/include/c++/14.1.1/bits/random.h:656:32:   required from here
+  656 |       template<typename _Sseq, typename = _If_seed_seq<_Sseq>>
+      |                                ^~~~~~~~
+/usr/include/c++/14.1.1/bits/random.h:309:42: error: ‘class std::random_device’ has no member named ‘generate’
+  309 |           std::declval<_Sseq&>().generate(std::declval<uint_least32_t*>(),
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  310 |                                           std::declval<uint_least32_t*>()));
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/14.1.1/bits/random.h:647:7: note: candidate: ‘std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>::mersenne_twister_engine(result_type) [with _UIntType = long unsigned int; long unsigned int __w = 32; long unsigned int __n = 624; long unsigned int __m = 397; long unsigned int __r = 31; _UIntType __a = 2567483615; long unsigned int __u = 11; _UIntType __d = 4294967295; long unsigned int __s = 7; _UIntType __b = 2636928640; long unsigned int __t = 15; _UIntType __c = 4022730752; long unsigned int __l = 18; _UIntType __f = 1812433253; result_type = long unsigned int]’
+  647 |       mersenne_twister_engine(result_type __sd)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/14.1.1/bits/random.h:647:43: note:   no known conversion for argument 1 from ‘std::random_device’ to ‘std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>::result_type’ {aka ‘long unsigned int’}
+  647 |       mersenne_twister_engine(result_type __sd)
+      |                               ~~~~~~~~~~~~^~~~
+/usr/include/c++/14.1.1/bits/random.h:644:7: note: candidate: ‘std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>::mersenne_twister_engine() [with _UIntType = long unsigned int; long unsigned int __w = 32; long unsigned int __n = 624; long unsigned int __m = 397; long unsigned int __r = 31; _UIntType __a = 2567483615; long unsigned int __u = 11; _UIntType __d = 4294967295; long unsigned int __s = 7; _UIntType __b = 2636928640; long unsigned int __t = 15; _UIntType __c = 4022730752; long unsigned int __l = 18; _UIntType __f = 1812433253]’
+  644 |       mersenne_twister_engine() : mersenne_twister_engine(default_seed) { }
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/14.1.1/bits/random.h:644:7: note:   candidate expects 0 arguments, 1 provided
+/usr/include/c++/14.1.1/bits/random.h:588:11: note: candidate: ‘constexpr std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>::mersenne_twister_engine(const std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>&)’
+  588 |     class mersenne_twister_engine
+      |           ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/14.1.1/bits/random.h:588:11: note:   no known conversion for argument 1 from ‘std::random_device’ to ‘const std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>&’
+/usr/include/c++/14.1.1/bits/random.h:588:11: note: candidate: ‘constexpr std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>::mersenne_twister_engine(std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>&&)’
+/usr/include/c++/14.1.1/bits/random.h:588:11: note:   no known conversion for argument 1 from ‘std::random_device’ to ‘std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>&&’
+main.cpp:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   23 | }
+      | ^
+
+[Done] exited with code=1 in 0.629 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+main.cpp: In function ‘std::string guessWord()’:
+main.cpp:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   23 | }
+      | ^
+4
+
+[Done] exited with code=null in 0.87 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+main.cpp: In function ‘std::string guessWord()’:
+main.cpp:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   23 | }
+      | ^
+6
+
+[Done] exited with code=null in 0.818 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+main.cpp: In function ‘std::string guessWord()’:
+main.cpp:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   23 | }
+      | ^
+2
+
+[Done] exited with code=null in 0.854 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+2
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+
+[Done] exited with code=0 in 0.69 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+4
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+
+[Done] exited with code=0 in 0.79 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+2
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+
+[Done] exited with code=0 in 0.81 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+1
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+
+[Done] exited with code=0 in 0.796 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+8
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+
+[Done] exited with code=0 in 0.716 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ tempCodeRunnerFile.cpp -o tempCodeRunnerFile && "/home/ronit/code/hangman/"tempCodeRunnerFile
+tempCodeRunnerFile.cpp:1:6: error: ‘cout’ in namespace ‘std’ does not name a type
+    1 | std::cout << dist6(rng) << std::endl;
+      |      ^~~~
+tempCodeRunnerFile.cpp:1:1: note: ‘std::cout’ is defined in header ‘<iostream>’; this is probably fixable by adding ‘#include <iostream>’
+  +++ |+#include <iostream>
+    1 | std::cout << dist6(rng) << std::endl;
+
+[Done] exited with code=1 in 0.079 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+9
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+
+[Done] exited with code=0 in 0.739 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+
+[Done] exited with code=0 in 0.65 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+turkey
+[Done] exited with code=0 in 0.679 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+snatch
+[Done] exited with code=0 in 0.711 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+turkey
+[Done] exited with code=0 in 0.72 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+snatch
+[Done] exited with code=0 in 0.755 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+turkey
+[Done] exited with code=0 in 0.725 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+energy
+[Done] exited with code=0 in 0.822 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+snatch
+[Done] exited with code=0 in 0.842 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+cheek
+[Done] exited with code=0 in 0.827 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+
+[Done] exited with code=0 in 0.835 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+number
+[Done] exited with code=0 in 0.847 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+
+[Done] exited with code=0 in 0.831 seconds
+

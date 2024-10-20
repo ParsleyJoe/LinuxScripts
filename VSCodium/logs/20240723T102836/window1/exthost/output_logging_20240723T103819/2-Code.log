@@ -1,0 +1,4 @@
+[Running] cd "/home/ronit/code/" && g++ some.cpp -o some && "/home/ronit/code/"some
+
+[Done] exited with code=0 in 0.551 seconds
+

@@ -1,0 +1,14 @@
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+Guess a letter: 
+[Done] exited with code=null in 6.818 seconds
+
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+Welcome to Console Hangman
+Time to guess a word
+You have 5 attempts
+
+[Done] exited with code=null in 5.256 seconds
+

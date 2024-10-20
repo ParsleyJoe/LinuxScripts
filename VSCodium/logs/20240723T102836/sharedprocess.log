@@ -1,0 +1,47 @@
+2024-07-23 10:29:06.878 [info] Getting Manifest... esbenp.prettier-vscode
+2024-07-23 10:29:07.191 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ronit/.vscode-oss/extensions/extensions.json","path":"/home/ronit/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:10.462Z"}}
+2024-07-23 10:29:09.219 [info] Extracted extension to file:///home/ronit/.vscode-oss/extensions/esbenp.prettier-vscode-10.4.0-universal: esbenp.prettier-vscode
+2024-07-23 10:29:09.222 [info] Renamed to /home/ronit/.vscode-oss/extensions/esbenp.prettier-vscode-10.4.0-universal
+2024-07-23 10:29:09.242 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/ronit/.vscode-oss/extensions/extensions.json
+2024-07-23 10:29:09.268 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ronit/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ronit/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)
+2024-07-23 10:34:17.557 [info] Getting Manifest... dlasagno.wal-theme
+2024-07-23 10:34:17.892 [info] Installing extension: dlasagno.wal-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ronit/.vscode-oss/extensions/extensions.json","path":"/home/ronit/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:10.462Z"}}
+2024-07-23 10:34:19.422 [info] Extracted extension to file:///home/ronit/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal: dlasagno.wal-theme
+2024-07-23 10:34:19.427 [info] Renamed to /home/ronit/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal
+2024-07-23 10:34:19.440 [info] Extension installed successfully: dlasagno.wal-theme vscode-userdata:/home/ronit/.vscode-oss/extensions/extensions.json
+2024-07-23 10:34:19.491 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ronit/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ronit/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)
+2024-07-23 10:36:38.679 [info] Getting Manifest... formulahendry.code-runner
+2024-07-23 10:36:39.483 [info] Installing extension: formulahendry.code-runner {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ronit/.vscode-oss/extensions/extensions.json","path":"/home/ronit/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:10.462Z"}}
+2024-07-23 10:36:42.539 [info] Extracted extension to file:///home/ronit/.vscode-oss/extensions/formulahendry.code-runner-0.12.2-universal: formulahendry.code-runner
+2024-07-23 10:36:42.545 [info] Renamed to /home/ronit/.vscode-oss/extensions/formulahendry.code-runner-0.12.2-universal
+2024-07-23 10:36:42.568 [info] Extension installed successfully: formulahendry.code-runner vscode-userdata:/home/ronit/.vscode-oss/extensions/extensions.json
+2024-07-23 10:36:42.646 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ronit/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ronit/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)
+2024-07-23 10:37:40.588 [info] Installing extension: ms-vscode.cpptools {"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ronit/.vscode-oss/extensions/extensions.json","path":"/home/ronit/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:10.462Z"}}
+2024-07-23 10:37:43.908 [info] Extracted extension to file:///home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2: ms-vscode.cpptools
+2024-07-23 10:37:43.916 [info] Renamed to /home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2
+2024-07-23 10:37:43.960 [info] Extension installed successfully: ms-vscode.cpptools vscode-userdata:/home/ronit/.vscode-oss/extensions/extensions.json
+2024-07-23 10:37:44.009 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ronit/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ronit/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)

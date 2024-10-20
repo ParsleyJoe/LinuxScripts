@@ -1,0 +1,54 @@
+{
+    "bookmarks": [],
+    "gui_state": {
+        "startupdialog": {
+            "geometry": "AdnQywADAAAAAAAAAAAAAAAABSkAAAK3AAAAAAAAAAAAAAKqAAABcQAAAAACAAAABVYAAAAAAAAAAAAABSkAAAK3",
+            "width": 1322,
+            "height": 696,
+            "x": 0,
+            "y": 0
+        },
+        "mainview": {
+            "geometry": "AdnQywADAAAAAAAAAAAAAAAAAo0AAAK3AAAAAAAAAAAAAAVVAAAC/wAAAAACAAAABVYAAAAAAAAAAAAAAo0AAAK3",
+            "width": 654,
+            "height": 696,
+            "x": 0,
+            "y": 0,
+            "lock_layout": false,
+            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAIAAAKOAAABUfwBAAAAA/sAAAAMAFMAdABhAHQAdQBzAQAAAAAAAACOAAAAbwD////7AAAADABDAG8AbQBtAGkAdAEAAACRAAAA/QAAAIsA/////AAAAZEAAAD9AAAAuAD////6AAAAAAEAAAAE+wAAABAAQgByAGEAbgBjAGgAZQBzAQAAAAD/////AAAAkwD////7AAAAFABTAHUAYgBtAG8AZAB1AGwAZQBzAQAAAAD/////AAAAuAD////7AAAAEgBGAGEAdgBvAHIAaQB0AGUAcwAAAAAA/////wAAALgA////+wAAAAwAUgBlAGMAZQBuAHQAAAAAAP////8AAACYAP///wAAAAMAAAKOAAABUPwBAAAAAvsAAAAIAEQAaQBmAGYBAAAAAAAAAo4AAABeAP////wAAAAA/////wAAAAAA////+v////8BAAAAAvsAAAAOAEEAYwB0AGkAbwBuAHMAAAAAAP////8AAABeAP////sAAAAOAEMAbwBuAHMAbwBsAGUAAAAAAP////8AAABiAP///wAAAo4AAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA",
+            "show_status_filter": false,
+            "toolbars": [],
+            "ref_sort": 0,
+            "show_diff_line_numbers": true,
+            "show_diff_filenames": false,
+            "image_diff_mode": 0,
+            "image_zoom_mode": 0,
+            "word_wrap": true
+        },
+        "clone": {
+            "geometry": "AdnQywADAAAAAAAAAAAAAAAAAs8AAADHAAAAAAAAAAAAAALPAAAAxwAAAAACAAAABVYAAAAAAAAAAAAAAs8AAADH",
+            "width": 720,
+            "height": 200,
+            "x": 0,
+            "y": 0
+        },
+        "remoteeditor": {
+            "geometry": "AdnQywADAAAAAAAAAAAAAAAABSkAAAK3AAAAAAAAAAAAAAUpAAACtwAAAAACAAAABVYAAAAAAAAAAAAABSkAAAK3",
+            "width": 1322,
+            "height": 696,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "recent": [
+        {
+            "name": "dotFiles",
+            "path": "/home/ronit/code/dotFiles"
+        },
+        {
+            "name": "LinuxSripts",
+            "path": "/home/ronit/code/LinuxSripts"
+        }
+    ],
+    "copy_formats": []
+}

@@ -1,0 +1,198 @@
+2024-07-23 14:28:55.595 [info] Extension host with pid 1123 started
+2024-07-23 14:28:55.595 [info] Skipping acquiring lock for /home/ronit/.config/VSCodium/User/workspaceStorage/59a5fbaf737fdabb7bc9a13b214b2aff.
+2024-07-23 14:28:55.943 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-23 14:28:55.957 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-07-23 14:28:56.745 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-23 14:28:56.751 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-07-23 14:28:56.847 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-23 14:28:56.883 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-23 14:28:56.950 [info] Eager extensions activated
+2024-07-23 14:28:57.080 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:28:57.085 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:28:57.094 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:28:57.152 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:28:59.909 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-23 14:28:59.932 [info] Extension host with pid 1123 exiting with code 0
+2024-07-23 14:29:00.446 [info] Extension host with pid 1262 started
+2024-07-23 14:29:00.446 [info] Skipping acquiring lock for /home/ronit/.config/VSCodium/User/workspaceStorage/dd4a4e297cf6e7d5ebc129599cd73bea.
+2024-07-23 14:29:00.453 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-23 14:29:00.461 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-07-23 14:29:00.533 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:00.553 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:00.579 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:00.606 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:00.944 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-23 14:29:00.946 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-07-23 14:29:00.979 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-23 14:29:01.008 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-23 14:29:01.063 [info] Eager extensions activated
+2024-07-23 14:29:01.142 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:01.144 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:01.162 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:01.230 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:17.991 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-23 14:29:18.014 [error] Canceled: Canceled
+	at new T (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:39096)
+	at y._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:8166)
+	at U.<computed>.F.charCodeAt.R.CharCode.DollarSign.U.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4351)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241286)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at k.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:239855)
+	at f._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241924)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240744)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:29715)
+	at SessionStateVariable.setContext (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90854:31)
+	at SessionStateVariable.set (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90851:21)
+	at DefaultClient.requestCompiler (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:76441:63)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:449:9)
+	at async DefaultClient.init (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:75206:36) setContext undefined
+2024-07-23 14:29:18.014 [error] Canceled: Canceled
+	at new T (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:39096)
+	at y._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:8166)
+	at U.<computed>.F.charCodeAt.R.CharCode.DollarSign.U.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4351)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241286)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at k.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:239855)
+	at f._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241924)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240744)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:29715)
+	at SessionStateVariable.setContext (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90854:31)
+	at SessionStateVariable.set (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90851:21)
+	at DefaultClient.requestCompiler (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:76442:64)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:449:9)
+	at async DefaultClient.init (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:75206:36) setContext undefined
+2024-07-23 14:29:18.014 [error] Canceled: Canceled
+	at new T (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:39096)
+	at y._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:8166)
+	at U.<computed>.F.charCodeAt.R.CharCode.DollarSign.U.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4351)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241286)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at k.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:239855)
+	at f._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241924)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240744)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:29715)
+	at SessionStateVariable.setContext (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90854:31)
+	at SessionStateVariable.set (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90851:21)
+	at DefaultClient.requestCompiler (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:76443:63)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:449:9)
+	at async DefaultClient.init (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:75206:36) setContext undefined
+2024-07-23 14:29:18.083 [info] Extension host with pid 1262 exiting with code 0
+2024-07-23 14:29:18.226 [info] Extension host with pid 1402 started
+2024-07-23 14:29:18.226 [info] Skipping acquiring lock for /home/ronit/.config/VSCodium/User/workspaceStorage/dd4a4e297cf6e7d5ebc129599cd73bea.
+2024-07-23 14:29:18.235 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-23 14:29:18.243 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-07-23 14:29:18.321 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:18.328 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:18.332 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:18.368 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:18.748 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-23 14:29:18.750 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-07-23 14:29:18.775 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-23 14:29:18.794 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-23 14:29:18.834 [info] Eager extensions activated
+2024-07-23 14:29:18.866 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:18.867 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:18.873 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:18.911 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:19.186 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-07-23 14:29:22.232 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-23 14:29:22.276 [info] Extension host with pid 1402 exiting with code 0
+2024-07-23 14:29:22.684 [info] Extension host with pid 1499 started
+2024-07-23 14:29:22.684 [info] Skipping acquiring lock for /home/ronit/.config/VSCodium/User/workspaceStorage/dd4a4e297cf6e7d5ebc129599cd73bea.
+2024-07-23 14:29:22.691 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-23 14:29:22.697 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-07-23 14:29:22.761 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:22.766 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:22.770 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:22.784 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:22.795 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-07-23 14:29:23.122 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-23 14:29:23.124 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-07-23 14:29:23.145 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-23 14:29:23.163 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-23 14:29:23.208 [info] Eager extensions activated
+2024-07-23 14:29:23.247 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:23.249 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:23.255 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:23.290 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:33.267 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-23 14:29:33.371 [error] Canceled: Canceled
+	at new T (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:39096)
+	at y._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:8166)
+	at U.<computed>.F.charCodeAt.R.CharCode.DollarSign.U.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4351)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241286)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at k.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:239855)
+	at f._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241924)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240744)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:29715)
+	at SessionStateVariable.setContext (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90854:31)
+	at SessionStateVariable.set (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90851:21)
+	at DefaultClient.requestCompiler (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:76441:63)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:449:9)
+	at async DefaultClient.init (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:75206:36) setContext undefined
+2024-07-23 14:29:33.371 [error] Canceled: Canceled
+	at new T (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:39096)
+	at y._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:8166)
+	at U.<computed>.F.charCodeAt.R.CharCode.DollarSign.U.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4351)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241286)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at k.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:239855)
+	at f._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241924)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240744)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:29715)
+	at SessionStateVariable.setContext (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90854:31)
+	at SessionStateVariable.set (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90851:21)
+	at DefaultClient.requestCompiler (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:76442:64)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:449:9)
+	at async DefaultClient.init (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:75206:36) setContext undefined
+2024-07-23 14:29:33.372 [error] Canceled: Canceled
+	at new T (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:39096)
+	at y._remoteCall (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:8166)
+	at U.<computed>.F.charCodeAt.R.CharCode.DollarSign.U.<computed> (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4351)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241286)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at k.registerCommand.description (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:239855)
+	at f._executeContributedCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:241924)
+	at f._doExecuteCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240744)
+	at f.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:240611)
+	at Object.executeCommand (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:29715)
+	at SessionStateVariable.setContext (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90854:31)
+	at SessionStateVariable.set (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:90851:21)
+	at DefaultClient.requestCompiler (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:76443:63)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:449:9)
+	at async DefaultClient.init (/home/ronit/.vscode-oss/extensions/ms-vscode.cpptools-1.21.2/dist/src/main.js:75206:36) setContext undefined
+2024-07-23 14:29:33.386 [info] Extension host with pid 1499 exiting with code 0
+2024-07-23 14:29:33.608 [info] Extension host with pid 1569 started
+2024-07-23 14:29:33.608 [info] Skipping acquiring lock for /home/ronit/.config/VSCodium/User/workspaceStorage/dd4a4e297cf6e7d5ebc129599cd73bea.
+2024-07-23 14:29:33.617 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-23 14:29:33.623 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-07-23 14:29:33.748 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:33.755 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:33.759 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:33.775 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-07-23 14:29:33.788 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-07-23 14:29:34.152 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-23 14:29:34.154 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-07-23 14:29:34.182 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-23 14:29:34.201 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-23 14:29:34.248 [info] Eager extensions activated
+2024-07-23 14:29:34.292 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:34.293 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:34.301 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:29:34.352 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 14:30:01.065 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-07-23 14:30:03.107 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-07-23 14:30:10.184 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-07-23 14:31:37.564 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.

@@ -1,0 +1,4 @@
+[Running] cd "/home/ronit/code/hangman/" && g++ main.cpp -o main && "/home/ronit/code/hangman/"main
+
+[Done] exited with code=0 in 0.536 seconds
+
